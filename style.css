@@ -144,7 +144,7 @@ img{
 }
 .effect-4{
     border-top: 30px solid transparent;
-    border-left: 30px solid #06d79c;
+    border-left: 30px solid #ff58e0;
     left: 30%;
     top: 20%;
     animation: spin 15s linear infinite;
@@ -152,7 +152,7 @@ img{
 .effect-4:before{
     content: '';
     border-top: 30px solid transparent;
-    border-left: 30px solid #06d79c;
+    border-left: 30px solid #ff58e0;
     position: absolute;
     opacity: 0.5;
     left: -35px;
@@ -171,7 +171,7 @@ img{
 }
 .effect-5 div{
     width: 1px;
-    background-color: #4dd0e1;
+    background-color: #ff58ffe0;
 }
 @keyframes spin{
     0%{
@@ -419,6 +419,10 @@ img{
     border-radius: 50%;
     border: 50px solid transparent;
 }
+.row .about-img .img-new{
+    max-width: 200px;
+    margin-bottom: 10px;
+}
 
 .about-section{  
     padding: 80px 0 0;
@@ -439,8 +443,8 @@ img{
     border-radius: 5px;
 }
 .about-section .about-img .social-links{
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 10px;
+    /* text-align: center; */
 }
 .about-section .about-img .social-links a{
     display: inline-block;
@@ -708,4 +712,11 @@ img{
     color: var(--text-black-600);
     margin: 0;
     line-height: 26px;
+}
+.skilled{
+    background-color: red;
+    border-radius: 50%;
+    border-color: palevioletred;
+    font-size: 70px;
+    font-weight: 700;
 }

@@ -10,13 +10,12 @@
          event.target.classList.add("active","outer-shadow");
         //  aboutSection.querySelector(".tab-content.active").classList.remove("active");
         //  aboutSection.querySelector(target).classList.add("active");
-         
+        //  document.querySelector('what').addEventListener(click, function(e) {
+        //      window.location.href='#select'
+        //  }, false);
         }
 
     })
 })();
 
 
-function myFunction() {
-    document.getElementById(aboutMe).innerHTML;
-}

@@ -720,3 +720,36 @@ img{
     font-size: 70px;
     font-weight: 700;
 }
+
+
+@media only screen and (max-width: 500px) {
+    .img-box .mimi{
+        /* display: none; */
+        width: 70px;
+        /* height: 10px; */
+        /* padding-top: 100px; */
+    }
+    .mimiko{
+        width: 10px;
+        margin-bottom: 380px;
+    }
+    .home-section .home-img .img-box{
+        /* max-width: 99950px; */
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        padding: 0px;
+    }
+    .home-section .home-img .img-box img{
+        width: 100%;
+        border-radius: 50%;
+        border: 10px solid transparent;
+    }
+    .about-section .about-img .social-links{
+        /* margin-top: 10px; */
+        line-height: 60px;
+        
+        /* text-align: center; */
+    }
+    
+}

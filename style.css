@@ -144,7 +144,7 @@ img{
 }
 .effect-4{
     border-top: 30px solid transparent;
-    border-left: 30px solid #ff58e0;
+    border-left: 30px solid rgb(204, 119, 119);
     left: 30%;
     top: 20%;
     animation: spin 15s linear infinite;
@@ -152,7 +152,7 @@ img{
 .effect-4:before{
     content: '';
     border-top: 30px solid transparent;
-    border-left: 30px solid #ff58e0;
+    border-left: 30px solid rgb(204, 119, 119);
     position: absolute;
     opacity: 0.5;
     left: -35px;
@@ -171,7 +171,7 @@ img{
 }
 .effect-5 div{
     width: 1px;
-    background-color: #ff58ffe0;
+    background-color: rgb(204, 119, 119);
 }
 @keyframes spin{
     0%{
@@ -336,7 +336,7 @@ img{
     justify-content: center;
 }
 .nav-menu ul{
-    background-color: violet;
+    background-color: rgb(204, 119, 119);
     padding: 15px;
 } 
 .nav-menu ul li{
@@ -540,15 +540,15 @@ img{
 .about-section .skills .skill-item .progress-bar{
     background-color: var(--text-black-600);
     height: 6px;
-    left: 7px;
+    left: 15px;
     top: 7px;
     position: absolute;
     border-radius: 10px;
 }
 .about-section .skills .skill-item .progress-bar span{
     position: absolute;
-    right: 0;
     top: 0;
+    right: 0;
     font-size: 16px;
     font-weight: 500;
     color: var(--text-black-600);
@@ -661,7 +661,7 @@ img{
     flex-wrap: wrap;
 }
 .service-section .service-item-inner{
-    padding: 50px 15px;
+    padding: 1px 1px;
     border-radius: 5PX;
     text-align: center;
     width: 100%;
@@ -719,6 +719,15 @@ img{
     border-color: palevioletred;
     font-size: 70px;
     font-weight: 700;
+}
+.images{
+    max-width: 80%;
+    height: 50%;
+    padding: 10px;
+    margin: auto;
+}
+.images img{
+    border-radius: 40px;
 }
 
 

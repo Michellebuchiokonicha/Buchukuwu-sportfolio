@@ -423,6 +423,63 @@ img{
     max-width: 200px;
     margin-bottom: 10px;
 }
+.pictures{
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    width: 1100px;
+    height: 1100;
+    justify-content: space-evenly;
+    line-height: 120px;
+    
+}
+.pictures .pics {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.pictures .picy {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.pictures .picer {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.pictures .pica {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.pictures .pico {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.pictures .pican {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.pictures .picam {
+    padding-left: 50px;
+    padding-bottom: 40px;
+}
+.pictures .pici {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.pictures .picin {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.pictures .picon {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.pictures .pic {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
+.pictures .picer {
+    padding-left: 70px;
+    padding-bottom: 40px;
+}
 
 .about-section{  
     padding: 80px 0 0;
@@ -476,10 +533,12 @@ img{
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 15px;
-    color: var(--text-black-600);
+    color: black;
 }
 .about-section .about-info span{
     font-weight: 600;
+    font-size: 20px;
+    line-height: 100px;
 }
 .about-section .about-info .btn-1{
     margin: 30px 20px 0 0;
